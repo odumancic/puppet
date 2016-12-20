@@ -18,7 +18,7 @@ node {
   stage 'lint testing'
   sh '''#!/bin/bash
 #  source ~/.rvm/scripts/rvm
-#  find . -iname *.pp -exec  bundle exec bundle exec puppet-lint --no-autoloader_layout-check  {} \; 
+  bundle exec bundle exec puppet-lint --no-autoloader_layout-check */*/*.pp
   '''
 
   stage 'rspec testing'
