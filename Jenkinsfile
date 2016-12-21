@@ -12,14 +12,14 @@ node {
   stage 'syntax testing'
   sh '''#!/bin/bash
 #  source ~/.rvm/scripts/rvm
-  bundle exec puppet parser validate manifests/
+  bundle exec puppet parser validate */*/*.pp
   '''
 
-  stage 'lint testing'
-  sh '''#!/bin/bash
+#  stage 'lint testing'
+#  sh '''#!/bin/bash
 #  source ~/.rvm/scripts/rvm
-  bundle exec bundle exec puppet-lint --no-autoloader_layout-check */*/*.pp
-  '''
+#  bundle exec bundle exec puppet-lint --no-autoloader_layout-check */*/*.pp
+#  '''
 
   stage 'rspec testing'
   sh '''#!/bin/bash
