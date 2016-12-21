@@ -12,7 +12,7 @@ node {
   stage 'syntax testing'
   sh '''#!/bin/bash
 #  source ~/.rvm/scripts/rvm
-  bundle exec puppet parser validate **/*.pp
+  bundle exec puppet parser validate */*/*.pp
   '''
 
   stage 'rspec testing'
