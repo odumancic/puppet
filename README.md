@@ -1,3 +1,7 @@
-# puppet
+# Puppet modules
 
-Test modules for puppet
+Test modules for Puppet
+* nginx
+* php-fpm
+* mysql
+* git

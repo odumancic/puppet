@@ -24,7 +24,7 @@ class php_fpm {
   Package { ensure => 'installed'}
   $php56 = [ 'php56w', 'php56w-cli', 'php56w-common', 'php56w-fpm', 'php56w-gd', 'php56w-intl',
              'php56w-mbstring', 'php56w-mysqlnd', 'php56w-opcache', 'php56w-pdo', 'php56w-process', 'php56w-recode',
-             'php56w-xml', 'php56w-xmlrpc' ]
+             'php56w-xml', 'php56w-xmlrpc',  'php56w-ldap', 'php56w-mcrypt'  ]
   package { $php56: }
 
   
