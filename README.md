@@ -5,3 +5,5 @@ Test modules for Puppet
 * php-fpm
 * mysql
 * git
+
+This line is added to test code manager.
