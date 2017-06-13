@@ -11,4 +11,5 @@ class profiles::test {
  # added some changes 2
 
  # Oliver commented on this ...
+ # Paul added a comment :)
 }
