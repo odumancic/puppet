@@ -9,4 +9,6 @@ class profiles::test {
  # Oliver adding comment 1
  # added some changes
  # added some changes 2
+
+ # Oliver commented on this ...
 }
