@@ -1,0 +1,9 @@
+class profiles::test {
+<<<<<<< HEAD
+
+ # add other comment
+=======
+ # commented line
+
+>>>>>>> paul
+}
