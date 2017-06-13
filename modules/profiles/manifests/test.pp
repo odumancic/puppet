@@ -7,4 +7,6 @@ class profiles::test {
 
  # add other commen
  # Oliver adding comment 1
+ # added some changes
+ # added some changes 2
 }
