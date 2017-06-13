@@ -3,5 +3,7 @@ class profiles::test {
  # adding new comment
  # let's add something else
 
+ ## Paul comment 1
+
  # add other comment
 }
