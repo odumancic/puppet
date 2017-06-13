@@ -1,5 +1,6 @@
 class profiles::test {
- # commented line
+ # commented line 
+ # adding new comment
 
  # add other comment
 }
