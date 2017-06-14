@@ -14,4 +14,6 @@ class profiles::test {
  # Paul added a comment :)
  # Oliver new comment. ..
  # Paul added a new comment :)
+
+ # Oliver added comment 3...
 }
