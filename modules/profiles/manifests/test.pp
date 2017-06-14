@@ -4,4 +4,6 @@ class profiles::test {
 
  # 2nd comment - oliver branch
  # 3rd comment - paul branch
+
+ # 4th comment - oliver branch
 }
