@@ -7,3 +7,5 @@ Test modules for Puppet
 * git
 
 This line is added to test code manager.
+
+Added new line code.
