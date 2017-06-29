@@ -6,4 +6,12 @@ file {'/etc/puppetlabs/puppet/software/':
   purge   => true,
   source  => 'puppet:///software/',
   }
+
+file {'/etc/puppetlabs/puppet/fileserver.conf':
+  ensure  => directory,
+  recurse => true,
+  purge   => true,
+  source  => 'puppet:///files/fileserver.conf',
+  }
+
 }
